@@ -84,7 +84,7 @@ function App() {
           <img src={Tiger}/>
         </div>
       </div>
-        <div className="footer flex justify-center bg-black">
+        <div className="footer flex justify-center">
           <div className="footer-logo-container">
             <img src={RealWhiteLogo} />
           </div>
