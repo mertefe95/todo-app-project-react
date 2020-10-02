@@ -53,6 +53,26 @@
 
 .order-ahead-container {
     background: url("../assets/images/below-image.png") no-repeat center center/cover;
-    background-color: red;
-    height: 10vh;
+    background-color: blue;
+    height: 70vh;
+}
+
+.order-ahead-ul:first-child {
+    font-family: "Inter";
+}
+
+.order-ahead-btn:hover  {
+    background-color: #fff;
+    color:#e26650;
+}
+
+.story-container {
+    height: 66vh;
+    min-height: 66vh;
+}
+
+.footer {
+    height: 33vh;
+    min-height: 33vh;
+    background-color: #e26650;
 }
