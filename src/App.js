@@ -5,6 +5,7 @@ import { fab, faFacebookF, faInstagram, faYelp } from '@fortawesome/free-brands-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import RealWhiteLogo from "../src/assets/images/real-white-logo.png";
 import MenuImage from "../src/assets/images/new-menu.jpg";
+import BelowImage from "../src/assets/images/below-image.png";
 
 library.add(fab)
 
@@ -51,6 +52,15 @@ function App() {
           <img className="menu h-screen" src={MenuImage}/>
         </div>
         
+        <div className="order-ahead-container h-64">
+            <div className="order-ahead-content">
+              <ul className="order-ahead-ul">
+                <li>ORDER AHEAD</li>
+                <li><button>Now Available</button></li>
+              </ul>
+            </div>
+
+        </div>
       
 
 
