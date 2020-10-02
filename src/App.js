@@ -22,20 +22,20 @@ function App() {
         <div className="navbar-container flex text-white items-center pl-48">
           <div className="links-container">
             <Zoom>
-              <ul className="links-ul flex uppercase px-10">
-                <li className="px-2"><a href="#">Menu</a></li>
-                <li className="px-2"><a href="#">Order</a></li>
-                <li className="px-2"><a href="#">About</a></li>
-                <li className="px-2"><a href="#">Shop</a></li>
+              <ul className="links-ul flex uppercase px-10 text-sm font-semibold">
+                <li className="px-4"><a href="#">Menu</a></li>
+                <li className="px-4"><a href="#">Order</a></li>
+                <li className="px-4"><a href="#">About</a></li>
+                <li className="px-4"><a href="#">Shop</a></li>
               </ul>
             </Zoom>            
           </div>
 
-          <div className="icons-container">
+          <div className="icons-container font-semibold text-xl">
             <ul className="icons-ul flex">
-              <li className="px-2"><a href="#"><FontAwesomeIcon icon={faInstagram}/></a></li>
-              <li className="px-2"><a href="#"><FontAwesomeIcon icon={faYelp}/></a></li>
-              <li className="px-2"><a href="#"><FontAwesomeIcon icon={faFacebookF}/></a></li>
+              <li className="px-4"><a href="#"><FontAwesomeIcon icon={faInstagram}/></a></li>
+              <li className="px-4"><a href="#"><FontAwesomeIcon icon={faYelp}/></a></li>
+              <li className="px-4"><a href="#"><FontAwesomeIcon icon={faFacebookF}/></a></li>
             </ul>
           </div>
         </div>
