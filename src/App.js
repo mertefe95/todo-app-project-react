@@ -4,6 +4,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab, faFacebookF, faInstagram, faYelp } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import RealWhiteLogo from "../src/assets/images/real-white-logo.png";
+import MenuImage from "../src/assets/images/new-menu.jpg";
 
 library.add(fab)
 
@@ -15,7 +16,7 @@ function App() {
         
         <div className="logo-container">
           <Zoom>
-            <img className="h-full pl-20" src={RealWhiteLogo}></img>
+            <img className="h-full pl-20" src={RealWhiteLogo}/>
           </Zoom> 
         </div>   
 
@@ -43,10 +44,17 @@ function App() {
 
       <div className="main">
         <div className="slider">
+        
         </div>
-      </div>
+
+        <div className="menu-container flex justify-center">
+          <img className="menu h-screen" src={MenuImage}/>
+        </div>
+        
       
 
+
+    </div>
 
     </div>
   );
