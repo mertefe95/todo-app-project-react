@@ -3,3 +3,50 @@
 @tailwind components;
 
 @tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face{
+    font-family: "Inter";
+    src: url("../assets/fonts/Inter.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: 'DIN 2014';
+    src: url("../assets/fonts/DIN2014-Regular.woff");
+    src: local('DIN 2014 Regular'), local('DIN2014-Regular'),
+        url("../assets/fonts/DIN2014-Regular.woff") format('woff');
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+.slider {
+    height: 75vh;
+    background: url('../assets/bopomofo-background-images/1-background.jpg') no-repeat center center/cover;
+    animation: slide 20s infinite;
+}
+
+@keyframes slide{
+    25%{
+        background: url('../assets/bopomofo-background-images/2-background.jpg') no-repeat center center/cover;
+    }
+    25%{
+        background: url('../assets/bopomofo-background-images/3-background.jpg') no-repeat center center/cover;
+    }
+    25%{
+        background: url('../assets/bopomofo-background-images/4-background.JPG') no-repeat center center/cover;
+    }
+    25%{
+        background: url('../assets/bopomofo-background-images/4-background.JPG') no-repeat center center/cover;
+    }
+}
+
+
+.navbar-container {
+    font-family: "Inter";
+}
