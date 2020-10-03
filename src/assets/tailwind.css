@@ -69,10 +69,26 @@
 .story-container {
     height: 66vh;
     min-height: 66vh;
+    font-family: 'DIN 2014';
 }
 
 .footer {
-    height: 33vh;
-    min-height: 33vh;
+    height: 55vh;
+    min-height: 55vh;
     background-color: #e26650;
+    font-family: 'DIN 2014';
+}
+
+.story-ul button {
+    border-color: #e26650;
+    transition: 0.1s background-color linear, 0.1s color linear;
+}
+
+.story-ul button:hover {
+    color: #fff;
+    background-color: #e26650;
+}
+
+.footer-logo-container {
+    height: 40%;
 }

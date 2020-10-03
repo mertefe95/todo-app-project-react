@@ -9,6 +9,7 @@ import Coffee1 from "../src/assets/images/coffee1.png";
 import Coffee2 from "../src/assets/images/coffee2.png";
 import Coffee3 from "../src/assets/images/coffee3.png";
 import Tiger from "../src/assets/images/tigerz.png";
+import TailwindCSS from  "../src/assets/tailwind.css";
 
 library.add(fab)
 
@@ -75,39 +76,41 @@ function App() {
           </ul>
         </div>
         
-        <div className="story-container text-white bg-black">
-        <li>HUG A MUG's story starts in the late 90s when boba was first introduced to the TR.</li>
-        <li><button className="py-2 px-2">Our Story</button></li>
+        <div className="story-container text-white bg-black flex flex-col justify-center items-center ">
+          <ul className="story-ul">
+            <li className="text-2xl">HUG A MUG's story starts in the late 90s when boba was first introduced to the TR.</li>
+            <li className="text-center pt-10"><button className="py-3 px-5 border-2 border-solid tracking-wide text-sm">Our Story</button></li>
+          </ul>
         </div>
 
         <div className="tiger-container bg-black">
           <img src={Tiger}/>
         </div>
       </div>
-        <div className="footer flex justify-center">
-          <div className="footer-logo-container">
-            <img src={RealWhiteLogo} />
+        <div className="footer">
+          <div className="footer-logo-container flex justify-center items-center">
+            <img src={RealWhiteLogo} className="h-full"/>
           </div>
 
-          <div className="footer-content-container">
-            <ul className="left-footer">
-              <li>HUG A MUG COFFEE SHOP</li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
+          <div className="footer-content-container flex justify-between items-center text-white mx-56">
+            <ul className="left-footer text-sm">
+              <li className="p-1">HUG A MUG COFFEE SHOP</li>
+              <li className="p-1">DUATEPE, SAVAS STREET. NO: 2</li>
+              <li className="p-1 mb-3">34000 SISLI/ISTANBUL/TURKEY</li>
+              <li className="p-1">&copy; 2020 HUG A MUG COFFEE SHOP.</li>
+              <li className="p-1">Artwork by Mert</li>
             </ul>
 
-            <ul className="middle-footer">
-              <li>Hours(updated hours due to COVID-19)</li>
-              <li>Tuesday — Thursday</li>
-              <li>11am — 8pm</li>
-              <li>Friday — Sunday</li>
-              <li>11am — 9pm</li>
-              <li>Closed on Monday</li>
+            <ul className="middle-footer text-center">
+              <li className="text-base my-4 mx-0">Hours (updated hours due to COVID-19)</li>
+              <li className="text-sm">Tuesday — Thursday</li>
+              <li className="text-sm">11am — 8pm</li>
+              <li className="text-sm">Friday — Sunday</li>
+              <li className="text-sm">11am — 9pm</li>
+              <li className="text-sm my-4 mx-0">Closed on Monday</li>
             </ul>
 
-            <ul className="right-footer">
+            <ul className="right-footer underline text-right">
               <li><a>Contact Us</a></li>
               <li><a>Careers</a></li>
               <li><a>Returns & Shipping</a></li>
