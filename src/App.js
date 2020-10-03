@@ -1,5 +1,7 @@
 import React from 'react';
 import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
+import Slide from 'react-reveal/Slide';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab, faFacebookF, faInstagram, faYelp } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -58,9 +60,9 @@ function App() {
         
         <div className="order-ahead-container h-64 flex justify-start items-center">
             <div className="order-ahead-content pl-64">
-              <ul className="order-ahead-ul">
-                <li className="order-ahead text-white text-5xl tracking-widest font-semibold">ORDER AHEAD</li>
-                <li><button className="order-ahead-btn border-2 py-2 px-4">Now Available</button></li>
+              <ul className="order-ahead-ul"> <Slide right>
+                <li className="order-ahead text-white text-5xl tracking-widest font-semibold">ORDER AHEAD</li> </Slide>
+                <li className="mt-6"><button className="order-ahead-btn border-2 py-3 px-5 text-white outline-none text-sm">Now Available</button></li>
               </ul>
             </div>
 
@@ -76,31 +78,38 @@ function App() {
           </ul>
         </div>
         
-        <div className="story-container text-white bg-black flex flex-col justify-center items-center ">
+        <div className="story-container text-white bg-black flex flex-col justify-center items-center">
+          <Fade>
           <ul className="story-ul">
             <li className="text-2xl">HUG A MUG's story starts in the late 90s when boba was first introduced to the TR.</li>
-            <li className="text-center pt-10"><button className="py-3 px-5 border-2 border-solid tracking-wide text-sm">Our Story</button></li>
+            <li className="text-center pt-10"><button className="py-3 px-5 border-2 border-solid tracking-wide text-base">Our Story</button></li>
           </ul>
+          </Fade>
         </div>
 
         <div className="tiger-container bg-black">
           <img src={Tiger}/>
         </div>
       </div>
+
+        
         <div className="footer">
           <div className="footer-logo-container flex justify-center items-center">
-            <img src={RealWhiteLogo} className="h-full"/>
+          <Zoom> <img src={RealWhiteLogo} className="h-full"/> </Zoom>
           </div>
 
           <div className="footer-content-container flex justify-between items-center text-white mx-56">
+            <Zoom>
             <ul className="left-footer text-sm">
               <li className="p-1">HUG A MUG COFFEE SHOP</li>
               <li className="p-1">DUATEPE, SAVAS STREET. NO: 2</li>
               <li className="p-1 mb-3">34000 SISLI/ISTANBUL/TURKEY</li>
               <li className="p-1">&copy; 2020 HUG A MUG COFFEE SHOP.</li>
-              <li className="p-1">Artwork by Mert</li>
+              <li className="p-1">Artwork by Mert</li> 
             </ul>
+            </Zoom>
 
+            <Zoom>
             <ul className="middle-footer text-center">
               <li className="text-base my-4 mx-0">Hours (updated hours due to COVID-19)</li>
               <li className="text-sm">Tuesday — Thursday</li>
@@ -109,13 +118,16 @@ function App() {
               <li className="text-sm">11am — 9pm</li>
               <li className="text-sm my-4 mx-0">Closed on Monday</li>
             </ul>
+            </Zoom>
 
+            <Zoom>
             <ul className="right-footer underline text-right">
               <li><a>Contact Us</a></li>
               <li><a>Careers</a></li>
               <li><a>Returns & Shipping</a></li>
               <li><a>Privacy Policy</a></li>
             </ul>
+            </Zoom>
           </div>
         </div>
   </div>

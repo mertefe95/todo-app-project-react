@@ -68,7 +68,6 @@
 
 .story-container {
     height: 66vh;
-    min-height: 66vh;
     font-family: 'DIN 2014';
 }
 
@@ -81,6 +80,7 @@
 
 .story-ul button {
     border-color: #e26650;
+    color: #e26650;
     transition: 0.1s background-color linear, 0.1s color linear;
 }
 
