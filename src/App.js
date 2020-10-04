@@ -55,7 +55,9 @@ function App() {
         </div>
 
         <div className="menu-container flex justify-center">
+          <Zoom duration={2000}>
           <img className="menu h-screen" src={MenuImage}/>
+          </Zoom>
         </div>
         
         <div className="order-ahead-container h-64 flex justify-start items-center">
