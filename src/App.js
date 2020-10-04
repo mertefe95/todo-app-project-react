@@ -68,14 +68,26 @@ function App() {
 
         </div>
 
-        <div className="three-images-container flex p-24">
-          <img className="p-15" src={Coffee1} />
-          <img className="p-16" src={Coffee2} />
-          <img src={Coffee3} />
-          <ul className="three-images-ul">
-            <li>Follow us on social</li>
-            <li><button className="border-2 ">Instagram</button></li>
-          </ul>
+        <div className="three-images-container grid p-24 h-full">
+          <div className="three-images-upper-container flex justify-center items-center ">
+          <Fade>
+            <img className="p-15 pb-10 pr-20" src={Coffee1} />
+          </Fade>
+          <Fade duration={2000} delay={300}>
+            <img className="p-16" src={Coffee2} />
+          </Fade>
+          </div>
+          
+          
+          <div className="three-images-lower-container flex items-center justify-center pr-48 ">
+          <Fade duration={3000} delay={400}>           
+            <img className="pr-8" src={Coffee3} />
+          </Fade>   
+            <ul className="three-images-ul">
+              <li className="pb-6 text-lg">Follow us on social</li>
+              <li><button className="border-2 tracking-wide px-5 py-3 bg-white cursor-pointer">Instagram</button></li>
+            </ul>          
+          </div>
         </div>
         
         <div className="story-container text-white bg-black flex flex-col justify-center items-center">
@@ -94,7 +106,7 @@ function App() {
 
         
         <div className="footer">
-          <div className="footer-logo-container flex justify-center items-center">
+          <div className="footer-logo-container flex justify-center items-center pt-8">
           <Zoom> <img src={RealWhiteLogo} className="h-full"/> </Zoom>
           </div>
 
@@ -110,18 +122,18 @@ function App() {
             </Zoom>
 
             <Zoom>
-            <ul className="middle-footer text-center">
-              <li className="text-base my-4 mx-0">Hours (updated hours due to COVID-19)</li>
-              <li className="text-sm">Tuesday — Thursday</li>
-              <li className="text-sm">11am — 8pm</li>
-              <li className="text-sm">Friday — Sunday</li>
-              <li className="text-sm">11am — 9pm</li>
-              <li className="text-sm my-4 mx-0">Closed on Monday</li>
+            <ul className="middle-footer text-center pr-16">
+              <li className="text-lg my-4 mx-0">Hours (updated hours due to COVID-19)</li>
+              <li className="text-sm p-1">Tuesday — Thursday</li>
+              <li className="text-sm p-1">11am — 8pm</li>
+              <li className="text-sm p-1">Friday — Sunday</li>
+              <li className="text-sm p-1">11am — 9pm</li>
+              <li className="text-sm p-1 my-4 mx-0">Closed on Monday</li>
             </ul>
             </Zoom>
 
             <Zoom>
-            <ul className="right-footer underline text-right">
+            <ul className="right-footer underline text-right text-lg">
               <li><a>Contact Us</a></li>
               <li><a>Careers</a></li>
               <li><a>Returns & Shipping</a></li>
