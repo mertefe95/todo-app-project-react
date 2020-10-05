@@ -18875,7 +18875,6 @@ video {
 
 .footer {
   height: 55vh;
-  min-height: 55vh;
   background-color: #e26650;
   font-family: 'DIN 2014';
 }
@@ -18891,8 +18890,28 @@ video {
   background-color: #e26650;
 }
 
+.three-images-container {
+  font-family: 'DIN 2014';
+  background: url("../assets/images/peony_background.jpg") no-repeat center center/cover;
+}
+
+.three-images-ul button {
+  border-color: #e26650;
+  color: #e26650;
+  transition: 0.1s background-color linear, 0.1s color linear;
+}
+
+.three-images-ul button:hover {
+  background-color: #e26650;
+  color: #fff;
+}
+
 .footer-logo-container {
-  height: 40%;
+  height: 35%;
+}
+
+.footer-content-container {
+  height: 50%;
 }
 
 @media (min-width: 640px) {
