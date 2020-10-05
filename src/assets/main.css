@@ -18914,6 +18914,18 @@ video {
   height: 50%;
 }
 
+.about-mission {
+  height: 56vh;
+}
+
+.mission-first-p {
+  font-family: "Inter";
+}
+
+.mission-second-p, .mission-third-p {
+  font-family: 'DIN 2014';
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -91689,4 +91701,3 @@ video {
     animation: bounce 1s infinite;
   }
 }
-

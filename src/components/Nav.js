@@ -24,7 +24,7 @@ return(
         <ul className="links-ul flex uppercase px-10 text-sm font-semibold">
             <li className="px-4"><a href="/menu">Menu</a></li>
             <li className="px-4"><a href="#">Order</a></li>
-            <li className="px-4"><a href="#">About</a></li>
+            <li className="px-4"><a href="/about">About</a></li>
             <li className="px-4"><a href="#">Shop</a></li>
         </ul>
         </Zoom>            

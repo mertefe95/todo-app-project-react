@@ -114,3 +114,14 @@
     height: 50%;
 }
 
+.about-mission {
+    height: 56vh;
+}
+
+.mission-first-h {
+    font-family: "Inter";
+}
+
+.mission-second-p, .mission-third-p {
+    font-family: 'DIN 2014';
+}
