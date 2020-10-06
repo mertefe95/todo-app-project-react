@@ -53,7 +53,6 @@
 
 .order-ahead-container {
     background: url("../assets/images/below-image.png") no-repeat center center/cover;
-    background-color: blue;
     height: 70vh;
 }
 
@@ -115,7 +114,7 @@
 }
 
 .about-mission {
-    height: 56vh;
+    height: 42vh;
 }
 
 .mission-first-h {
@@ -124,4 +123,18 @@
 
 .mission-second-p, .mission-third-p {
     font-family: 'DIN 2014';
+}
+
+.about-story {
+    background: url("../assets/images/peony_background.jpg") no-repeat center center/cover;
+    height: 90vh;
+}
+
+
+.about-story-ul {
+    font-family: 'DIN 2014';
+}
+
+.about-first-h {
+    font-family: "Inter";
 }
