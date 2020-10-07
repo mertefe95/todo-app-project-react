@@ -138,3 +138,7 @@
 .about-first-h {
     font-family: "Inter";
 }
+
+.about-image-container {
+    height: 100vh;
+}

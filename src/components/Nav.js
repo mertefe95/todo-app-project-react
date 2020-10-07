@@ -14,11 +14,11 @@ return(
 <div className="header bg-black h-40 flex">       
     <div className="logo-container">
         <Zoom>
-        <a href="/"><img className="h-full pl-20" src={RealWhiteLogo}/></a>
+        <a href="/"><img className="h-full pl-20 py-4" src={RealWhiteLogo}/></a>
         </Zoom> 
     </div>   
 
-    <div className="navbar-container flex text-white items-center pl-48">
+    <div className="navbar-container flex text-white items-center pl-64">
         <div className="links-container">
         <Zoom>
         <ul className="links-ul flex uppercase px-10 text-sm font-semibold">

@@ -1,6 +1,6 @@
 import TailwindCSS from "../assets/tailwind.css";
 import React from 'react';
-import AboutImage from "../assets/images/new-about-image.jpg";
+import VintageImage from "../assets/images/canvas.png";
 import Zoom from 'react-reveal/Zoom';
 
 function About() {
@@ -17,8 +17,8 @@ return (
         </ul>
     </div>
 
-    <div className="about-image-container h-screen mt-40">
-        <img src={AboutImage} className="h-full w-full" />
+    <div className="about-image-container mt-40">
+        <img src={VintageImage} className="h-full w-full" />
     </div>
 
     <div className="about-story text-left  flex justify-center items-center">   
