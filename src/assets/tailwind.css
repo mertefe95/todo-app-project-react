@@ -47,9 +47,18 @@
 }
 
 
+.logo-container {
+    min-height: 50px;
+    min-width: 200px;
+}
+
+
 .navbar-container {
     font-family: "Inter";
+    min-height: 160px;
+    min-width: 200px;
 }
+
 
 .order-ahead-container {
     background: url("../assets/images/below-image.png") no-repeat center center/cover;
@@ -140,5 +149,65 @@
 }
 
 .about-image-container {
+    background: url("../assets/images/yahya-background.jpg") no-repeat center center/cover;
     height: 90vh;
+}
+
+
+
+@media (max-width: 800px) {
+    .navbar-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-container {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-container ul {
+        padding: 0 20px 0 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-container ul li {
+        text-align: center;
+    }
+
+    .navbar-container ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-container ul li i {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-container.active {
+        display: flex;
+    }
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    color: white;
+    border-radius: 10px;
 }

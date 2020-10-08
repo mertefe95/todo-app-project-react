@@ -1,6 +1,6 @@
 import TailwindCSS from "../assets/tailwind.css";
 import React from 'react';
-import VintageImage from "../assets/images/canvas.png";
+import VintageImage from "../assets/images/yahya-background.jpg";
 import Zoom from 'react-reveal/Zoom';
 
 function About() {
@@ -17,11 +17,10 @@ return (
         </ul>
     </div>
 
-    <div className="about-image-container mt-40">
-        <img src={VintageImage} className="h-full w-full" />
+    <div className="about-image-container mt-40 overflow-hidden">
     </div>
 
-    <div className="about-story text-left  flex justify-center items-center">   
+    <div className="about-story text-left flex justify-center items-center overflow-hidden">   
         <ul className="about-story-ul mx-64 px-48">
             <li><h3 className="about-first-h uppercase text-4xl font-semibold tracking-widest">Our Story</h3></li>
             <li><p className="about-second-p py-4 pt-10 text-2xl tracking-wider">HUG A MUG's story starts in the late 90s when Real Turkish Coffee was first introduced to the TR shopping environment.</p></li>

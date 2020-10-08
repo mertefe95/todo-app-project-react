@@ -6,7 +6,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import RealWhiteLogo from "../assets/images/real-white-logo.png";
 import TailwindCSS from  "../assets/tailwind.css";
 
-
 library.add(fab)
 
 function Nav() {
@@ -19,6 +18,12 @@ return(
     </div>   
 
     <div className="navbar-container flex text-white items-center pl-64">
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+
         <div className="links-container">
         <Zoom>
         <ul className="links-ul flex uppercase px-10 text-sm font-semibold">
