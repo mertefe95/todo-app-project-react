@@ -22,12 +22,14 @@ return (
         </Zoom>
     </div>
 
-    <div className="order-ahead-container h-64 flex justify-start items-center">
-        <div className="order-ahead-content pl-64">
-            <ul className="order-ahead-ul"> <Slide right>
-                <li className="order-ahead text-white text-5xl tracking-widest font-semibold">ORDER AHEAD</li> </Slide>
-                <li className="mt-6"><button className="order-ahead-btn border-2 py-3 px-5 text-white outline-none text-sm">Now Available</button></li>
-            </ul>
+    <div className="order-ahead-container flex justify-center items-start flex-col">
+        <div className="order-ahead-upper pl-64 flex justify-start items-center">
+            <Slide right>
+            <h2 className="order-ahead text-white tracking-widest font-semibold">ORDER AHEAD</h2>
+            </Slide>
+        </div>
+        <div className="order-ahead-below">
+            <button className="order-ahead-btn ml-64 mt-8 border-2 py-3 px-6 text-white outline-none">Now Available</button>   
         </div>
     </div>
 

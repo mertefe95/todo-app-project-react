@@ -53,20 +53,30 @@
 }
 
 
-.navbar-container {
+.navbar {
     font-family: "Inter";
-    min-height: 160px;
-    min-width: 200px;
+    
 }
 
+.order-ahead-upper {
+    font-size: 2.6vw;
+}
+
+.order-ahead-below {
+    font-size: 0.8vw;
+}
 
 .order-ahead-container {
     background: url("../assets/images/below-image.png") no-repeat center center/cover;
-    height: 70vh;
+    min-height: 80vh;
 }
 
-.order-ahead-ul:first-child {
+.order-ahead-upper {
     font-family: "Inter";
+}
+
+.order-ahead-below {
+    font-family: 'DIN 2014';
 }
 
 .order-ahead-btn:hover  {
@@ -153,45 +163,10 @@
     height: 90vh;
 }
 
-
-
-@media (max-width: 800px) {
-    .navbar-container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .toggle-button {
-        display: flex;
-    }
-
-    .navbar-container {
-        display: none;
-        width: 100%;
-    }
-
-    .navbar-container ul {
-        padding: 0 20px 0 0;
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar-container ul li {
-        text-align: center;
-    }
-
-    .navbar-container ul li a {
-        padding: .5rem 1rem;
-    }
-
-    .navbar-container ul li i {
-        padding: .5rem 1rem;
-    }
-
-    .navbar-container.active {
-        display: flex;
-    }
+.navbar .icon {
+    display: none;
 }
+
 
 .toggle-button {
     position: absolute;
@@ -208,6 +183,55 @@
     height: 3px;
     width: 100%;
     background-color: white;
-    color: white;
     border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .links-and-icons {
+        display: none;
+        width: 100%;
+    }
+
+    .links-and-icons ul {
+        padding: 0 20px 0 0;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .links-and-icons ul li {
+        text-align: center;
+    }
+
+    .links-and-icons ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .links-and-icons ul li i {
+        padding: .5rem 1rem;
+    }
+
+    .links-and-icons.active {
+        display: flex;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+@media (max-width: 1850px) {
+    .links-and-icons {      
+        padding-right: 50px;
+    }   
 }
