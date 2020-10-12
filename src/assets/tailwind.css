@@ -52,18 +52,9 @@
     min-width: 200px;
 }
 
-
 .navbar {
     font-family: "Inter";
     
-}
-
-.order-ahead-upper {
-    font-size: 2.6vw;
-}
-
-.order-ahead-below {
-    font-size: 0.8vw;
 }
 
 .order-ahead-container {
@@ -234,4 +225,14 @@ img {
     .links-and-icons {      
         padding-right: 50px;
     }   
+}
+
+@media screen and (max-width:1000px) {
+
+}
+
+@media screen and (max-width:420px) {
+    .three-images-container img {
+        width: 100%;
+    }
 }
