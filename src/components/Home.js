@@ -65,7 +65,7 @@ return (
     </div>
 
     <div className="tiger-container bg-black">
-        <img src={Tiger}/>
+        <img className="tiger-image" src={Tiger}/>
     </div>
 </div>
 );

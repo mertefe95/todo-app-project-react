@@ -240,6 +240,44 @@
 @media screen and (max-width: 820px) {
    .story-container {
        text-align: center;
+       height: 40vh;
    }
+   .story-container li:first-child {
+       font-size: 1.1rem;
+   }
+
+   .story-container button {
+       font-size: 0.745rem;
+   }
+
+   .tiger-container {
+        height: 45vh;
+   }
+   .tiger-image {
+       width: 100%;
+       height: 100%;
+   }
+
+   .footer-content-container {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .footer-content-container ul{
+       font-size: 10px;
+       padding: 0 70px;
+   }
+
+   .middle-footer li {
+    padding: 0 auto;
+    font-size: 9px;
+    margin: 0;
+   }
+
+   .footer-logo-container img {
+       height: 90px;
+   }
+
     
 }
