@@ -80,12 +80,6 @@
     font-family: 'DIN 2014';
 }
 
-.footer {
-    height: 55vh;
-    background-color: #e26650;
-    font-family: 'DIN 2014';
-}
-
 .story-ul button {
     border-color: #e26650;
     color: #e26650;
@@ -113,14 +107,6 @@
 .three-images-ul button:hover {
     background-color: #e26650;
     color: #fff;
-}
-
-.footer-logo-container {
-    height: 35%;
-}
-
-.footer-content-container {
-    height: 50%;
 }
 
 .about-mission {
@@ -157,7 +143,6 @@
 .navbar .icon {
     display: none;
 }
-
 
 .toggle-button {
     position: absolute;
@@ -250,8 +235,8 @@
        font-size: 0.745rem;
    }
 
-   .tiger-container {
-        height: 45vh;
+   .tiger-image {
+       display: flex;
    }
    .tiger-image {
        width: 100%;
@@ -281,3 +266,39 @@
 
     
 }
+
+
+@media screen and (max-width: 820px) {
+    .footer-content-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .left-footer {
+        height: 100%;
+        width: 100%;
+    }
+
+    .middle-footer {
+        height: 100%;
+        width: 100%;
+    }
+
+    .right-footer {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.footer {
+    min-height: 33vh;
+    background-color: #e26650;
+    font-family: 'DIN 2014';
+    height: 44vh;
+}
+
+.footer img {
+    height: 120px;
+}
+

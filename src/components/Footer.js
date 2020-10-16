@@ -8,12 +8,10 @@ import TailwindCSS from "../assets/tailwind.css";
 
 function Footer() {
 return (
-<div className="footer">
-    <div className="footer-logo-container flex justify-center items-center pt-8">
-        <Zoom> <img src={RealWhiteLogo} className="h-full"/> </Zoom>
-    </div>
+<div className="footer flex justify-center items-center flex-col">
+        <Zoom> <img src={RealWhiteLogo} className="imgbear" /> </Zoom>
 
-    <div className="footer-content-container flex justify-between items-center text-white mx-56">
+    <div className="footer-content-container flex justify-around items-center text-white w-full mr-30">
         <Zoom>
         <ul className="left-footer text-sm">
             <li className="p-1">HUG A MUG COFFEE SHOP</li>
@@ -25,7 +23,7 @@ return (
         </Zoom>
 
         <Zoom>
-        <ul className="middle-footer text-center pr-16">
+        <ul className="middle-footer text-center mr-16">
             <li className="text-lg my-4 mx-0">Hours (updated hours due to COVID-19)</li>
             <li className="text-sm p-1">Tuesday — Thursday</li>
             <li className="text-sm p-1">11am — 8pm</li>
