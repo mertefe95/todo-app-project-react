@@ -39,7 +39,7 @@ return (
             <img className="p-15 pb-10 pr-20" src={Coffee1} />
             </Fade>
             <Fade duration={2000} delay={300}>
-            <img className="p-16" src={Coffee2} />
+            <img className="second-image p-16" src={Coffee2} />
             </Fade>
         </div>
     
@@ -64,8 +64,8 @@ return (
         </Fade>
     </div>
 
-    <div className="tiger-container bg-black">
-        <img className="tiger-image" src={Tiger}/>
+    <div className="tiger-container">
+        <img className="tiger-image h-full w-full" src={Tiger}/>
     </div>
 </div>
 );

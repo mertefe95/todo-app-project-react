@@ -18881,12 +18881,6 @@ video {
   font-family: 'DIN 2014';
 }
 
-.footer {
-  height: 66vh;
-  background-color: #e26650;
-  font-family: 'DIN 2014';
-}
-
 .story-ul button {
   border-color: #e26650;
   color: #e26650;
@@ -19093,9 +19087,15 @@ video {
   }
 }
 
-.imgbear {
-  height: 125px;
-  width:  120px;
+.footer {
+  min-height: 33vh;
+  background-color: #e26650;
+  font-family: 'DIN 2014';
+  height: 44vh;
+}
+
+.footer img {
+  height: 120px;
 }
 
 @media (min-width: 640px) {
@@ -91873,3 +91873,4 @@ video {
     animation: bounce 1s infinite;
   }
 }
+
