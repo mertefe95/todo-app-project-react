@@ -34,9 +34,9 @@ return (
     </div>
 
     <div className="three-images-container grid p-24 h-full">
-        <div className="three-images-upper-container flex justify-center items-center ">
+        <div className="three-images-upper-container flex justify-center items-center">
             <Fade>
-            <img className="p-15 pb-10 pr-20" src={Coffee1} />
+            <img className="first-image p-15 pb-10 pr-20" src={Coffee1} />
             </Fade>
             <Fade duration={2000} delay={300}>
             <img className="second-image p-16" src={Coffee2} />
@@ -46,7 +46,7 @@ return (
     
         <div className="three-images-lower-container flex items-center justify-center pr-48 ">
             <Fade duration={3000} delay={400}>           
-            <img className="pr-8" src={Coffee3} />
+            <img className="third-image pr-8" src={Coffee3} />
             </Fade>   
             <ul className="three-images-ul">
                 <li className="pb-6 text-lg">Follow us on social</li>
