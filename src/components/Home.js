@@ -38,7 +38,7 @@ return (
     
     <div className="three-images-container p-24">
 
-        <-- <div className="three-images-upper-container flex justify-center items-center">
+    <div className="three-images-upper-container flex justify-center items-center">
 
             <div className="card">
                 <Fade>

@@ -9,14 +9,6 @@ import TailwindCSS from  "../assets/tailwind.css";
 
 library.add(fab)
 
-
-const toggleButton = document.getElementsByClassName('toggle-button')[0]
-const navbarLinks = document.getElementsByClassName('links-and-icons')[0]
-
-window.toggleButton.addEventListener('click', () => {
-    window.navbarLinks.classList.toggle('active')
-})
-
 function Nav() {
 
 return(
