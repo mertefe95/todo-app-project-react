@@ -38,7 +38,7 @@ return (
     
     <div className="three-images-container p-24">
 
-    <div className="three-images-upper-container flex justify-center items-center">
+        <div className="three-images-upper-container flex justify-center items-center">
 
             <div className="card">
                 <Fade>
@@ -62,14 +62,8 @@ return (
                 </Fade>   
             </div>
                 
-            <div className="card">
-                <li className="pb-6 text-lg">Follow us on social</li>
-                <li><button className="border-2 tracking-wide px-5 py-3 bg-white cursor-pointer">Instagram</button></li>
-            </div>
-                
-                
-                
-                
+           
+                                
                 <ul className="three-images-ul">
                 <li className="pb-6 text-lg">Follow us on social</li>
                 <li><button className="border-2 tracking-wide px-5 py-3 bg-white cursor-pointer">Instagram</button></li>
