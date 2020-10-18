@@ -33,22 +33,44 @@ return (
         </div>
     </div>
 
-    <div className="three-images-container grid p-24 h-full">
-        <div className="three-images-upper-container flex justify-center items-center">
-            <Fade>
-            <img className="first-image p-15 pb-10 pr-20" src={Coffee1} />
-            </Fade>
-            <Fade duration={2000} delay={300}>
-            <img className="second-image p-16" src={Coffee2} />
-            </Fade>
+    
+    
+    
+    <div className="three-images-container p-24">
+
+        <-- <div className="three-images-upper-container flex justify-center items-center">
+
+            <div className="card">
+                <Fade>
+                <img className="first-image p-15 pb-10 pr-20" src={Coffee1} />
+                </Fade>
+            </div>
+
+            <div className="card">      
+                <Fade duration={2000} delay={300}>
+                <img className="second-image p-16" src={Coffee2} />
+                </Fade>
+            </div>
         </div>
     
     
         <div className="three-images-lower-container flex items-center justify-center pr-48 ">
-            <Fade duration={3000} delay={400}>           
-            <img className="third-image pr-8" src={Coffee3} />
-            </Fade>   
-            <ul className="three-images-ul">
+
+            <div className="card">
+                <Fade duration={3000} delay={400}>           
+                <img className="third-image pr-8" src={Coffee3} />
+                </Fade>   
+            </div>
+                
+            <div className="card">
+                <li className="pb-6 text-lg">Follow us on social</li>
+                <li><button className="border-2 tracking-wide px-5 py-3 bg-white cursor-pointer">Instagram</button></li>
+            </div>
+                
+                
+                
+                
+                <ul className="three-images-ul">
                 <li className="pb-6 text-lg">Follow us on social</li>
                 <li><button className="border-2 tracking-wide px-5 py-3 bg-white cursor-pointer">Instagram</button></li>
             </ul>          
