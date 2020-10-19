@@ -14,32 +14,32 @@ library.add(fab)
 function Nav() {
 
 return(
-<div className="header bg-orange-600 h-40 flex justify-between ">       
-    <div className="logo-container rounded-3xl pl-10">
-        <Zoom>
-        <a href="/"><img className="logo-putterly h-full" src={PutterlyImage3}/></a>
-        </Zoom> 
-    </div>   
+<nav className="flex justify-around items-center text-black bg-white">
+    <div className="logo">
+        <img src={PutterlyImage3} className="h-24" />
+    </div>
+    <ul className="nav-links flex justify-around w-3/12 lg:w-2/5 md:w-2/4 sm:w-4/5 tracking-widest font-bold uppercase">
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">About</a>
+        </li>
+        <li>
+            <a href="#">Write</a>
+        </li>
+        <li>
+            <a href="#">Login</a>
+        </li>
+    </ul>
+    <div className="burger hidden">
+        <div className="line1"></div>
+        <div className="line2"></div>
+        <div className="line3"></div>
+    </div>
 
-    <nav className="navbar flex text-white items-center">       
-        <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
 
-        <div className="links-and-icons flex justify-center items-center tracking-widest">
-            <Zoom>
-            <ul className="links flex uppercase px-10 text-base font-semibold ">
-                <li className="px-4"><a href="/menu">Menu</a></li>
-                <li className="px-4"><a href="/about">About</a></li>
-                <li className="px-4"><a href="/writethem">Write Them</a></li>
-                <li className="px-4"><a href="/login">Login</a></li>
-            </ul>
-            </Zoom>            
-        </div>
-    </nav>
-</div>
+</nav>
 
 
 );

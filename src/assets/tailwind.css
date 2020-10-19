@@ -14,6 +14,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+
+/**** NAV ****/
+nav {
+    min-height: 8vh;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    margin: 3px;
+    background-color: black;
+}
+
+
+
+
 .header {
     opacity: 0.9;
 }
@@ -25,3 +41,5 @@
 .write-them-container {
     background: url("../assets/images/writethemdown.png") no-repeat center center/cover;
 }
+
+

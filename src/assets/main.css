@@ -18804,27 +18804,34 @@ video {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family:'Open Sans';
 }
 
-/******************** FONT-FACES ********************/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-@font-face{
-  font-family: "Inter";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-  src: url("../assets/fonts/Inter.ttf") format("truetype");
+/**** NAV ****/
+
+nav {
+  min-height: 8vh;
 }
 
-@font-face {
-  font-family: 'DIN 2014';
+.burger div {
+  width: 25px;
+  height: 5px;
+}
 
-  src: url("../assets/fonts/DIN2014-Regular.woff");
+.header {
+  opacity: 0.9;
+}
 
-  src: local('DIN 2014 Regular'), local('DIN2014-Regular'),
-        url("../assets/fonts/DIN2014-Regular.woff") format('woff');
+.main {
+  background: url("../assets/images/homepage.png") no-repeat center center/cover;
+}
 
-  font-weight: normal;
-
-  font-style: normal;
+.write-them-container {
+  background: url("../assets/images/writethemdown.png") no-repeat center center/cover;
 }
 
 @media (min-width: 640px) {
@@ -91602,3 +91609,5 @@ video {
     animation: bounce 1s infinite;
   }
 }
+
+
