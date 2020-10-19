@@ -14,7 +14,7 @@ library.add(fab)
 function Nav() {
 
 return(
-<div className="header bg-orange-600 h-40 flex justify-between">       
+<div className="header bg-orange-600 h-40 flex justify-between ">       
     <div className="logo-container rounded-3xl pl-10">
         <Zoom>
         <a href="/"><img className="logo-putterly h-full" src={PutterlyImage3}/></a>
