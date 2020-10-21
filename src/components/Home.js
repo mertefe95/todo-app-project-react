@@ -4,9 +4,9 @@ import TailwindCSS from "../assets/tailwind.css";
 
 function Home() {
 return (
-<div className="main h-screen">
-    qweqwe
-</div>
+<main className="main">
+asdasd
+</main>
 );
 }
 

@@ -7,9 +7,9 @@ import TailwindCSS from "../assets/tailwind.css";
 
 function Footer() {
 return (
-    <div>
-        qweqwe
-    </div>
+    <footer>
+        asdasd
+    </footer>
 );
 }
 
