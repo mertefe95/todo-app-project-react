@@ -10,35 +10,29 @@ library.add(fab)
 function Nav() {
 
 return(
-<header className="header bg-red-600 h-32 flex justify-around">
+<header className="header">
 
-    <div className="icons-div flex flex-col justify-center items-center">
-        <h2 className="underline">SOCIAL MEDIA</h2>
-        <ul className="nav-icons flex">
-            <li className="px-4"><a href="#"><FontAwesomeIcon icon={faInstagram}/></a></li>
-            <li className="px-4"><a href="#"><FontAwesomeIcon icon={faYelp}/></a></li>
-            <li className="px-4"><a href="#"><FontAwesomeIcon icon={faFacebookF}/></a></li>
-            <li className="px-4"><a href="#"><FontAwesomeIcon icon={faTwitter}/></a></li>
-        </ul>
-    </div>
+    <nav className="nav flex justify-around items-center text-white uppercase h-40 pt-20">
+        <div className="logo-div">
+            <h2 className="mr-64">NYX BAR & COCKTAIL</h2>
+        </div>
+    
+        <div className="links-icons-div flex">
+            <ul className="menu-links flex">
+                <li className="px-2"><a href="/">Home</a></li>
+                <li className="px-2"><a href="/about">About</a></li>
+                <li className="px-2"><a href="#">Contact</a></li>
+                <li className="px-2"><a href="#">Projects</a></li>
+            </ul>
 
-    <div className="nav-logo">
-        <h1>Logo</h1>
-    </div>
-
-    <nav className="nav-links-icons flex justify-between items-center">
-
-        <ul className="nav-links flex flex-row justify-evenly">
-            <li><a href="#"><FontAwesomeIcon icon={faHome}/>HOME </a></li>
-            <li><a href="#"><FontAwesomeIcon icon={faImages}/>PHOTO GALLERY</a></li>
-            <li><a href="#"><FontAwesomeIcon icon={faWarehouse}/>MERCHANDISE</a></li>
-            <li><a href="#"><FontAwesomeIcon icon={faBullhorn}/>ABOUT</a></li>
-            <li><a href="#"></a></li>
-        </ul>
-
-        
+            <ul className="icons-links flex">
+                <li className="px-2"><a href="#"><FontAwesomeIcon icon={faFacebookF} /></a></li>
+                <li className="px-2"><a href="#"><FontAwesomeIcon icon={faInstagram} /></a></li>
+                <li className="px-2"><a href="#"><FontAwesomeIcon icon={faTwitter} /></a></li>
+                <li className="px-2"><a href="#"><FontAwesomeIcon icon={faBullhorn} /></a></li>
+            </ul>
+        </div>
     </nav>
-
 </header>
 );
 }

@@ -18864,12 +18864,18 @@ video {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family:'Open Sans';
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+header {
+  font-family: 'Righteous';
+  background: url("../assets/images/background.jpg") no-repeat center center/cover;
+}
 
 @media (min-width: 600) {
   .sm\:container {
@@ -91886,4 +91892,3 @@ video {
     animation: bounce 1s infinite;
   }
 }
-
