@@ -8,7 +8,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
- 
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
@@ -17,11 +17,27 @@
 
 .header {
     font-family: 'Righteous';
-    background: url("../assets/images/nyx.png") no-repeat center center/cover;
-    height: 100vh;
+    background: url("../assets/images/background.jpg") no-repeat center center/cover;
+    height: 75vh;
 }
 
 .about-div {
     background: url("../assets/images/background-about.webp") no-repeat center center/cover;
     font-family: 'Righteous';
+}
+
+.main-nav li {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.logo {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.upper-content-above {
+    height: 80vh;
 }

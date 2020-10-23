@@ -18872,9 +18872,51 @@ video {
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
-header {
+.header {
   font-family: 'Righteous';
   background: url("../assets/images/background.jpg") no-repeat center center/cover;
+  height: 75vh;
+}
+
+.about-div {
+  background: url("../assets/images/background-about.webp") no-repeat center center/cover;
+  font-family: 'Righteous';
+}
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 16px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  float: right;
+}
+
+#toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  label {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu-links  {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+  .menu-links  a {
+    display: block;
+    border-bottom: 1px solid #EAEAEB;
+    margin: 0;
+  }
+
+  #toggle:checked + .menu-links  {
+    display: block;
+  }
 }
 
 @media (min-width: 600) {
@@ -91892,3 +91934,4 @@ header {
     animation: bounce 1s infinite;
   }
 }
+
