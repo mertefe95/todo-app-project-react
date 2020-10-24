@@ -2,8 +2,6 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import TailwindCSS from "../assets/tailwind.css";
 import nyx from "../assets/images/bg-image.png";
-import cocktailsImg from "../assets/images/cocktails-1.jpg";
-import mainDrinksImg from "../assets/images/main-drinks.jpg";
 
 function Home() {
 return (
