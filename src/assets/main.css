@@ -581,9 +581,9 @@ video {
   width: 100%;
 }
 
-@media (min-width: 600) {
+@media (min-width: 600px) {
   .container {
-    max-width: 600;
+    max-width: 600px;
   }
 }
 
@@ -11696,7 +11696,7 @@ video {
 }
 
 .max-w-screen-sm {
-  max-width: 600;
+  max-width: 600px;
 }
 
 .max-w-screen-md {
@@ -18882,7 +18882,7 @@ video {
   font-weight: bold;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
   .nav {
     flex-direction: row;
     justify-content: space-evenly;
@@ -18933,14 +18933,20 @@ video {
   }
 }
 
-@media (min-width: 600) {
+@media screen and (min-width: 800px) {
+  .first-div-text {
+    margin-top: 130px;
+  }
+}
+
+@media (min-width: 600px) {
   .sm\:container {
     width: 100%;
   }
 
-  @media (min-width: 600) {
+  @media (min-width: 600px) {
     .sm\:container {
-      max-width: 600;
+      max-width: 600px;
     }
   }
 
@@ -30053,7 +30059,7 @@ video {
   }
 
   .sm\:max-w-screen-sm {
-    max-width: 600;
+    max-width: 600px;
   }
 
   .sm\:max-w-screen-md {
@@ -37192,9 +37198,9 @@ video {
     width: 100%;
   }
 
-  @media (min-width: 600) {
+  @media (min-width: 600px) {
     .md\:container {
-      max-width: 600;
+      max-width: 600px;
     }
   }
 
@@ -48307,7 +48313,7 @@ video {
   }
 
   .md\:max-w-screen-sm {
-    max-width: 600;
+    max-width: 600px;
   }
 
   .md\:max-w-screen-md {
@@ -55446,9 +55452,9 @@ video {
     width: 100%;
   }
 
-  @media (min-width: 600) {
+  @media (min-width: 600px) {
     .lg\:container {
-      max-width: 600;
+      max-width: 600px;
     }
   }
 
@@ -66561,7 +66567,7 @@ video {
   }
 
   .lg\:max-w-screen-sm {
-    max-width: 600;
+    max-width: 600px;
   }
 
   .lg\:max-w-screen-md {
@@ -73700,9 +73706,9 @@ video {
     width: 100%;
   }
 
-  @media (min-width: 600) {
+  @media (min-width: 600px) {
     .xl\:container {
-      max-width: 600;
+      max-width: 600px;
     }
   }
 
@@ -84815,7 +84821,7 @@ video {
   }
 
   .xl\:max-w-screen-sm {
-    max-width: 600;
+    max-width: 600px;
   }
 
   .xl\:max-w-screen-md {

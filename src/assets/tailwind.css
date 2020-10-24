@@ -27,7 +27,7 @@
 }
 
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 800px) {
     .nav {
         flex-direction: row;
         justify-content: space-evenly;
@@ -67,6 +67,13 @@
         margin-top: 100px;
     }
 }
+
+@media screen and (min-width: 800px) {
+    .first-div-text {
+        margin-top: 130px;
+    }
+}
+
 
 @media screen and (min-width: 800px) {
     .first-div-text {
