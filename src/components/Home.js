@@ -2,6 +2,8 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import TailwindCSS from "../assets/tailwind.css";
 import nyx from "../assets/images/bg-image.png";
+import mainImg from "../assets/images/beer-1.jpg";
+import cocktailImg from "../assets/images/cocktail-5.jpg";
 
 function Home() {
 return (
@@ -21,6 +23,26 @@ return (
             </p>    
 
         </div>
+    </div>
+
+    <div className="menus-div">
+        <div className="main-drinks-menu relative"> 
+            <a href="#"> <img src={mainImg} /> </a>
+            <div className="cocktail-menu-content absolute bottom-0 text-white">
+                <h2 className="uppercase">COCKTAILS</h2>
+                <p className="uppercase">View Menu</p>
+            </div>
+            
+        </div>
+
+        <div className="cocktails-menu relative">
+            <a href="#"> <img src={cocktailImg} /> </a>
+            <div className="cocktail-menu-content absolute bottom-0 text-white">
+                <h2 className="uppercase">COCKTAILS</h2>
+                <p className="uppercase">View Menu</p>
+            </div>
+        </div>
+
     </div>
 </main>
 );
