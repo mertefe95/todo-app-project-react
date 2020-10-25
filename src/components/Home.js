@@ -3,7 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import TailwindCSS from "../assets/tailwind.css";
 import nyx from "../assets/images/bg-image.png";
 import mainImg from "../assets/images/beer-1.jpg";
-import cocktailImg from "../assets/images/cocktail-5.jpg";
+import cocktailImg from "../assets/images/newcocktail4.webp";
+import reservationImage from "../assets/images/bar-background-3.jpg";
 
 function Home() {
 return (
@@ -25,9 +26,11 @@ return (
         </div>
     </div>
 
-    <div className="menus-div">
-        <div className="main-drinks-menu relative"> 
-            <a href="#"> <img src={mainImg} /> </a>
+    <div className="menus-container grid">
+        <div className="main-drinks-menu relative">
+            <div className="menu-div-logo h-54">
+                <a href="#"> <img src={mainImg} className="" /> </a>
+            </div> 
             <div className="cocktail-menu-content absolute bottom-0 text-white">
                 <h2 className="uppercase">COCKTAILS</h2>
                 <p className="uppercase">View Menu</p>
@@ -36,12 +39,29 @@ return (
         </div>
 
         <div className="cocktails-menu relative">
-            <a href="#"> <img src={cocktailImg} /> </a>
+            <div className="cocktail-div-logo">
+                <a href="#"> <img src={cocktailImg} /> </a>
+            </div>
             <div className="cocktail-menu-content absolute bottom-0 text-white">
                 <h2 className="uppercase">COCKTAILS</h2>
                 <p className="uppercase">View Menu</p>
             </div>
         </div>
+
+    </div>
+
+    <div className="reservation-div grid relative">
+        <img src={reservationImage} />
+        <div className="below-instagram-content absolute top-0 left-0 w-full text-center mt-64 text-white">
+            <h2 className="uppercase text-5xl tracking-wider mb-8 ">Private Events</h2>
+            <a className="border-2 border-solid border-white py-4 px-8 uppercase"href="#">LEARN MORE</a>
+        </div>
+    </div>
+
+ 
+    <div className="below-instagram relative">
+        <img src={nyx} />
+        
 
     </div>
 </main>

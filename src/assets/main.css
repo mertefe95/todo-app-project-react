@@ -18939,6 +18939,23 @@ video {
   }
 }
 
+.menus-container {
+  grid-gap: 1em;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .menus-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.reservation-div {
+  grid-template-columns: 1fr;
+}
+
 @media (min-width: 600px) {
   .sm\:container {
     width: 100%;

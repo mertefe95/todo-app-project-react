@@ -80,3 +80,47 @@
         margin-top: 130px;
     }
 }
+
+
+.menus-container {
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .menus-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.reservation-div {
+    grid-template-columns: 1fr;
+    height: 5000px;
+}
+
+
+.menus-container img {
+    max-width:100%;
+    height:auto;
+}
+
+.reservation-div img {
+    max-width:100%;
+    height:auto;
+}
+
+.first-content-div {
+    max-width:100%;
+    height:auto;
+}
+
+.below-instagram-content h2 {
+    font-family: 'Playfair Display';
+}
+
+.below-instagram img {
+    max-width:100%;
+    height:auto;
+}
