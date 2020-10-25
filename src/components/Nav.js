@@ -18,7 +18,7 @@ return(
             <a href="#" class="logo"><h2 className="">NYX BAR & COCKTAIL</h2></a>
         </div>
     
-        <ul className="menu-links main-nav  text-center md:text-4xl ">
+        <ul className="menu-links main-nav text-center md:text-4xl ">
             <li className="py-2">
                 <a href="/">Home</a>
             </li>

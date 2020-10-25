@@ -1,16 +1,13 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import TailwindCSS from "../assets/tailwind.css";
-import nyx from "../assets/images/bg-image.png";
-import mainImg from "../assets/images/beer-1.jpg";
-import cocktailImg from "../assets/images/newcocktail4.webp";
-import reservationImage from "../assets/images/cocktail-5.jpg";
+
 
 function Home() {
 return (
 <main className="main">
     <div className="first-content-div relative flex justify-center items-center">
-        <img src={nyx} className="first-bg-img " />
+        <img src="/images/bg-image.png" className="first-bg-img " />
         <div className="first-div-text absolute top-0 text-center mt-8 mx-8">
             <h1 className="font-bold text-xl xl:mt-24 lg:mt-40 xl:text-5xl xl:mb-4">WELCOME TO NYX</h1>
             <p className="uppercase text-base mt-4 xl:text-3xl xl:mb-6"><strong>
@@ -29,7 +26,7 @@ return (
     <div className="menus-container grid">
         <div className="main-drinks-menu relative">
             <div className="menu-div-logo h-54">
-                <a href="#"> <img src={mainImg} className="" /> </a>
+                <a href="#"> <img src="/images/beer-1.jpg" className="" /> </a>
             </div> 
             <div className="cocktail-menu-content absolute bottom-0 text-white">
                 <h2 className="uppercase">COCKTAILS</h2>
@@ -40,7 +37,7 @@ return (
 
         <div className="cocktails-menu relative">
             <div className="cocktail-div-logo">
-                <a href="#"> <img src={cocktailImg} /> </a>
+                <a href="#"> <img src="/images/newcocktail4.webp" /> </a>
             </div>
             <div className="cocktail-menu-content absolute bottom-0 text-white">
                 <h2 className="uppercase">COCKTAILS</h2>
