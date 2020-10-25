@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import TailwindCSS from "../assets/tailwind.css";
-import nyx from "../assets/images/bg-image.png";
+import nyx from "../assets/images/background-4.png";
 import mainImg from "../assets/images/beer-1.jpg";
 import cocktailImg from "../assets/images/newcocktail4.webp";
 import reservationImage from "../assets/images/bar-background-3.jpg";
