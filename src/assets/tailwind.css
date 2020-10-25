@@ -96,31 +96,46 @@
 }
 
 .reservation-div {
-    grid-template-columns: 1fr;
-    height: 5000px;
+    background: url('../assets/images/bar-background-3.jpg') no-repeat center center/cover;
+    height: 67vh;
+    font-family: 'Krona One';
+}
+
+@media screen and (max-width: 800px) {
+    .menus-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .reservation-content > h2 {
+        font-size: 1.6rem;
+    }
+
+    .reservation-content > a {
+        font-size: 0.7rem;
+    }
+}
+
+.instagram-div {
+    background: url('../assets/images/background-4.png') no-repeat center center/cover;
+    height: 50vh;
+    font-family: 'Righteous';
+}
+
+@media screen and (max-width: 800px) {
+    .instagram-content > h2 {
+        font-size: 1.6rem;
+    }
+
+    .instagram-content > a {
+        font-size: 0.8rem;
+    }
 }
 
 
 .menus-container img {
-    max-width:100%;
-    height:auto;
-}
-
-.reservation-div img {
-    max-width:100%;
-    height:auto;
-}
-
-.first-content-div {
-    max-width:100%;
-    height:auto;
-}
-
-.below-instagram-content h2 {
-    font-family: 'Playfair Display';
-}
-
-.below-instagram img {
     max-width:100%;
     height:auto;
 }

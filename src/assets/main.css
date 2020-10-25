@@ -18953,7 +18953,21 @@ video {
 }
 
 .reservation-div {
-  grid-template-columns: 1fr;
+  background: url('../assets/images/bar-background-3.jpg') no-repeat center center/cover;
+  height: 67vh;
+  font-family: 'Krona One';
+}
+
+@media screen and (max-width: 800px) {
+  .menus-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.menus-container img {
+  max-width:100%;
+  height:auto;
 }
 
 @media (min-width: 600px) {

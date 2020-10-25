@@ -1,10 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import TailwindCSS from "../assets/tailwind.css";
-import nyx from "../assets/images/background-4.png";
+import nyx from "../assets/images/bg-image.png";
 import mainImg from "../assets/images/beer-1.jpg";
 import cocktailImg from "../assets/images/newcocktail4.webp";
-import reservationImage from "../assets/images/bar-background-3.jpg";
+import reservationImage from "../assets/images/cocktail-5.jpg";
 
 function Home() {
 return (
@@ -47,23 +47,26 @@ return (
                 <p className="uppercase">View Menu</p>
             </div>
         </div>
-
     </div>
 
-    <div className="reservation-div grid relative">
-        <img src={reservationImage} />
-        <div className="below-instagram-content absolute top-0 left-0 w-full text-center mt-64 text-white">
-            <h2 className="uppercase text-5xl tracking-wider mb-8 ">Private Events</h2>
-            <a className="border-2 border-solid border-white py-4 px-8 uppercase"href="#">LEARN MORE</a>
+    <div className="reservation-div flex">
+        <div className="reservation-content w-full text-center flex justify-center items-center flex-col text-white">
+            <h2 className="uppercase text-5xl tracking-wider mb-8">Private Events</h2>
+            <a className="border-2 border-solid border-white py-4 px-8 uppercase" href="#">LEARN MORE</a>
         </div>
     </div>
 
- 
-    <div className="below-instagram relative">
-        <img src={nyx} />
-        
 
+    <div className="instagram-div flex">
+        <div className="instagram-content w-full text-center flex justify-center items-center flex-col text-white">
+            <h2 className="uppercase text-5xl tracking-widest mb-8">Follow us on <br/> instagram</h2>
+            <a className="border-2 border-solid border-white py-4 px-8 uppercase" href="#">@NYXBAR</a>
+        </div>
     </div>
+
+
+
+    
 </main>
 );
 }
