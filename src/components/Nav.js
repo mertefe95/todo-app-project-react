@@ -12,10 +12,10 @@ function Nav() {
 return(
 <header className="header">
 
-<nav className="nav text-white uppercase h-40 pt-20 sm:pt-56  flex flex-col justify-center h-full">
+<nav className="nav text-white uppercase h-40 pt-10 sm:pt-56 flex flex-col justify-center items-center h-full">
 
         <div className="logo-div">
-            <a href="#" class="logo"><h2 className="">NYX BAR & COCKTAIL</h2></a>
+            <a href="/" class="logo"><h2 className="text-center text-3xl">NYX BAR & COCKTAIL</h2></a>
         </div>
     
         <ul className="menu-links main-nav text-center md:text-4xl ">

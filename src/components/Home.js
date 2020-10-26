@@ -25,24 +25,27 @@ return (
 
     <div className="menus-container grid">
         <div className="main-drinks-menu relative">
-            <div className="menu-div-logo h-54">
-                <a href="#"> <img src="/images/beer-1.jpg" className="" /> </a>
-            </div> 
-            <div className="cocktail-menu-content absolute bottom-0 text-white">
-                <h2 className="uppercase">COCKTAILS</h2>
-                <p className="uppercase">View Menu</p>
-            </div>
-            
+            <a href="#">
+                <div className="menu-div-logo h-54">
+                    <img src="/images/beer-1.jpg" className="" /> 
+                </div> 
+                <div className="cocktail-menu-content ml-8 mb-10 absolute bottom-0 text-white">
+                    <h2 className="uppercase px-2 py-2">MAIN DRINKS</h2>
+                    <p className="uppercase px-2 py-2">View Menu</p>
+                </div>
+            </a>   
         </div>
 
         <div className="cocktails-menu relative">
-            <div className="cocktail-div-logo">
-                <a href="#"> <img src="/images/newcocktail4.webp" /> </a>
-            </div>
-            <div className="cocktail-menu-content absolute bottom-0 text-white">
-                <h2 className="uppercase">COCKTAILS</h2>
-                <p className="uppercase">View Menu</p>
-            </div>
+            <a href="#"> 
+                <div className="cocktail-div-logo">
+                    <img src="/images/newcocktail4.webp" />
+                </div>
+                <div className="cocktail-menu-content ml-8 mb-10 absolute bottom-0 text-white">
+                    <h2 className="uppercase px-2 py-2">COCKTAILS</h2>
+                    <p className="uppercase px-2 py-2">View Menu</p>
+                </div>
+            </a>
         </div>
     </div>
 

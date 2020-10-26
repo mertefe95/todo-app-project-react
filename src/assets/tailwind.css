@@ -162,4 +162,18 @@
 .maindrinks-upper-container {
     background: url('/images/bg-image.png') no-repeat center center/cover;
     height: 40vh;
+    font-family: 'Krona One';
 }
+
+.cocktail-menu-content {
+    background-color: #C8705B;
+    font-family: 'Playfair Display';
+    opacity: 0.65;    
+
+}
+
+.beerandwine-body, .whiskyandvodka-body {
+    background: url('/images/bg-image.png') no-repeat center center/cover;
+    font-family: 'Krona One';
+}
+
