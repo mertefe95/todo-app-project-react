@@ -172,7 +172,7 @@
 
 }
 
-.beerandwine-body, .whiskyandvodka-body {
+.beerandwine-body, .whiskyandvodka-body, .cocktails-body {
     background: url('/images/bg-image.png') no-repeat center center/cover;
     font-family: 'Krona One';
 }
