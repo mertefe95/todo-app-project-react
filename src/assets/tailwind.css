@@ -143,8 +143,6 @@
 
 
 
-
-
 .maindrinks-grid-container {
     grid-gap: 1em;
     grid-template-columns: 1fr 1fr;
@@ -177,3 +175,10 @@
     font-family: 'Krona One';
 }
 
+
+
+@media screen and (min-width: 800px) {
+    .maindrinks-grid-container{
+        display: grid;
+    }
+}
