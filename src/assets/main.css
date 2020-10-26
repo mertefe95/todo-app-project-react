@@ -18875,7 +18875,7 @@ video {
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 .header {
-  background: url('/assets/images/background.jpg') no-repeat center center/cover;
+  background: url("/images/background.jpg") no-repeat center center/cover;
   height: 70vh;
   font-family: 'Playfair Display';
   font-size: 1.2em;
@@ -18953,7 +18953,7 @@ video {
 }
 
 .reservation-div {
-  background: url('/assets/images/bar-background-3.jpg') no-repeat center center/cover;
+  background: url('/images/bar-background-3.jpg') no-repeat center center/cover;
   height: 67vh;
   font-family: 'Krona One';
 }
@@ -18976,7 +18976,7 @@ video {
 }
 
 .instagram-div {
-  background: url('/assets/images/background-4.png') no-repeat center center/cover;
+  background: url('/images/background-4.png') no-repeat center center/cover;
   height: 50vh;
   font-family: 'Righteous';
 }

@@ -26,10 +26,10 @@ return(
                 <a href="/about">About</a>
             </li>
             <li className="py-2">
-                <a href="#">Contact</a>
+                <a href="/maindrinks">MAIN DRINKS</a>
             </li>
             <li className="py-2 mb-1">
-                <a href="#">Projects</a>
+                <a href="/cocktails">COCKTAILS</a>
             </li>
         </ul>
 
