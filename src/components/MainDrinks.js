@@ -12,7 +12,7 @@ function MainDrinks() {
                 <div className="maindrinks-beer-wine relative">
                     <a href="/beerandwine">
                         <div className="main-drinks-logo-div">
-                            <img src="/images/newbeer-1.jpeg" /> 
+                            <img src="/images/newbeer-2.jpg" /> 
                         </div>
                         <div className="cocktail-menu-content ml-8 mb-10 absolute bottom-0 text-white">
                             <h2 className="uppercase px-2 py-2">Beer & Wine</h2>
