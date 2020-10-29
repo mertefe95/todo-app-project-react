@@ -14,5 +14,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.app h1 {
+    font-family: 'Josefin Sans';
+    font-size: 50px;
+}
 
 
+.app {
+    background-image: linear-gradient(to right, orange, green);
+}

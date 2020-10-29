@@ -18874,6 +18874,8 @@ video {
 
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
 @media (min-width: 600px) {
   .sm\:container {
     width: 100%;
@@ -91889,5 +91891,4 @@ video {
     animation: bounce 1s infinite;
   }
 }
-
 

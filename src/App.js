@@ -1,21 +1,15 @@
 import React from 'react';
-import Nav from "../src/components/Nav";
-import Home from "../src/components/Home";
-import { BrowserRouter as Router, Switch, Route }from 'react-router-dom';
-
+import Form from "./components/Form";
+import Tailwindcss from "./assets/tailwind.css";
 
 function App() {
   return (
-    <Router>
-      <div>
-        <Nav />
-        <Switch>
-          <Route path="/" exact component={Home} />   
-          <Route path="/about" exact component={About} />            
-        </Switch>
-        <Footer />
-      </div>
-    </Router>
+    <div className="app h-screen">
+      <header>
+        <h1 className="text-center pt-20">Mert's Todo List</h1>
+      </header>
+      <Form />
+    </div> 
   );
 }
 
