@@ -1,7 +1,11 @@
 import React from "react";
 import Tailwindcss from "../assets/tailwind.css";
-    
+
 const Form = () => {
+    // Here I can write javascript code and function
+    const inputTextHandler = (e) => {
+        console.log(e);
+    }
     return (
         <form className="h-64 flex justify-center items-center">
             <input type="text" className="todo-input text-black" />

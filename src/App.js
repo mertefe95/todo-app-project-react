@@ -1,15 +1,14 @@
-import React from 'react';
+import React, { useState  } from 'react';
 import Form from "./components/Form";
 import Tailwindcss from "./assets/tailwind.css";
+import TodoList from "./components/TodoList";
 
 function App() {
   return (
-    <div className="app h-screen">
-      <header>
-        <h1 className="text-center pt-20">Mert's Todo List</h1>
-      </header>
-      <Form />
-    </div> 
+    <div className="App">
+      <h1>Hello React</h1>
+
+    </div>
   );
 }
 
